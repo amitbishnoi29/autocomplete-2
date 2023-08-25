@@ -1,0 +1,24 @@
+
+header , nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 1rem;
+}
+
+.logo{
+    margin-left: 1rem;
+}
+
+nav ul li{
+   margin-right: 2rem;
+}
+
+nav ul li:hover {
+    cursor: pointer;
+    color: rgb(142, 87, 210);
+}

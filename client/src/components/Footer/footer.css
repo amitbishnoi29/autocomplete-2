@@ -1,0 +1,12 @@
+footer{
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    
+}
+
+footer div{
+    display: grid;
+    place-items: center;
+}

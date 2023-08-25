@@ -1,0 +1,11 @@
+.hotel-image img{
+    border-radius: 10px;
+}
+.description{
+    font-size: 14px;
+    color: gray;
+}
+#hotel-details{
+    overflow-y: auto;
+    height: 75vh;
+}

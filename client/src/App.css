@@ -1,0 +1,22 @@
+#root {
+  /* max-width: 1280px; */
+  /* margin: 0 auto; */
+  /* padding: 2rem; */
+  /* text-align: center; */
+}
+
+input{
+  /* outline: none; */
+  border: none;
+  padding: 10px 5px;
+  width: 300px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+}
+
+.container{
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 10px 25px;
+}
+

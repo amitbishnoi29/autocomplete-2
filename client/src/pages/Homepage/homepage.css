@@ -1,0 +1,45 @@
+#homepage{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.suggestions{
+    max-height: 500px;
+    width: 300px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    overflow-y: auto;
+    
+}
+.heading{
+    background-color: rgb(236, 233, 233);
+    padding: 5px;
+}
+.location , .hotel{
+    cursor: pointer;
+    border-bottom: 1px solid gray;
+    padding: 10px 0px;
+    font-size: 14px;
+    margin-left: 5px;
+}
+.location:hover , .hotel:hover{
+    background-color: aliceblue;
+}
+.location .icon , .hotel .icon{
+    margin-right: 10px;
+    font-size: 14px;
+    color: gray;
+}
+
+
+.hotel .hotel-address , .location-address {
+    color: gray;
+}
+
+
+.no-hotels-found{
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+}
